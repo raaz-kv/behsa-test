@@ -4,7 +4,7 @@ import { Button, Container, Row, Col, Form } from 'react-bootstrap';
 
 function App() {
   //Definitions
-  const initialNames = ['John', 'Jane', 'Bob', 'Alice', 'Charlie'];
+  const initialNames = ['Mohammad', 'Reza', 'Ali', 'Maryam', 'Razieh'];
   const [names, setNames] = useState(initialNames);
   const [newName, setNewName] = useState('');
 
